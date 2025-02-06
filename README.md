@@ -1,5 +1,20 @@
 # Multi-Branche Store - For Assessment
 
+### Requirements
+- Composer v2
+- PHP v7.4
+- MySQL v8.0
+
+
+
+### Setup Steps
+- Create ENV File ```cp .env.example .env```.
+- Configure database connection in the .env file.
+- Run ```composer install``` to install all dependencies.
+- Run ```php artisan key:generate``` to generate a new application key.
+- Run ```php artisan migrate``` to create the database tables.
+- Run ```php artisan serve``` to start the development server.
+
 
 
 ### Tasks to be completed
